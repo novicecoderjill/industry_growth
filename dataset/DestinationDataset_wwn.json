@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_wwn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobStorageEmployment",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employmentgrowthcopy.csv",
+				"container": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": []
+	}
+}
