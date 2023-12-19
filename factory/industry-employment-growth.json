@@ -1,0 +1,9 @@
+{
+	"name": "industry-employment-growth",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "999e9f52-6e7f-487e-96fc-1254e4c99ccf",
+		"tenantId": "a63bb1a9-48c2-448b-8693-3317b00ca7fb"
+	}
+}
