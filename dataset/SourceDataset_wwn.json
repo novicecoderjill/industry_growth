@@ -1,0 +1,76 @@
+{
+	"name": "SourceDataset_wwn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobStorageEmployment",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "public_use-industry-employment-growth.csv",
+				"container": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "country_code",
+				"type": "String"
+			},
+			{
+				"name": "country_name",
+				"type": "String"
+			},
+			{
+				"name": "wb_region",
+				"type": "String"
+			},
+			{
+				"name": "wb_income",
+				"type": "String"
+			},
+			{
+				"name": "isic_section_index",
+				"type": "String"
+			},
+			{
+				"name": "isic_section_name",
+				"type": "String"
+			},
+			{
+				"name": "industry_id",
+				"type": "String"
+			},
+			{
+				"name": "industry_name",
+				"type": "String"
+			},
+			{
+				"name": "growth_rate_2015",
+				"type": "String"
+			},
+			{
+				"name": "growth_rate_2016",
+				"type": "String"
+			},
+			{
+				"name": "growth_rate_2017",
+				"type": "String"
+			},
+			{
+				"name": "growth_rate_2018",
+				"type": "String"
+			},
+			{
+				"name": "growth_rate_2019",
+				"type": "String"
+			}
+		]
+	}
+}
